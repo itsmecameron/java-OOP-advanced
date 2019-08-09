@@ -2,6 +2,7 @@ package com.javaoop.phone;
 
 public class PhoneTest {
 	public static void main(String[] args) {
+		//creating new object with the parameters from the Phone.java
 		Galaxy s9 = new Galaxy("S9", 99, "Version", "Ring Ring Ring!");
 		IPhone iphoneTen = new IPhone("X", 100, "AT&T", "Zing");
 		

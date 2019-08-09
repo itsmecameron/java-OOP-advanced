@@ -12,8 +12,10 @@ public abstract class Phone {
         this.carrier = carrier;
         this.ringTone = ringTone;
     }
+    
     // abstract method. This method will be implemented by the subclasses
     public abstract void displayInfo();
+    
     // getters and setters removed for brevity. Please implement them yourself
 	public String getVersionNumber() {
 		return versionNumber;
